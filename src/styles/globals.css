@@ -6,10 +6,10 @@
    THEME: Calm Earth Therapy
    ================================ */
 @theme {
-  --color-primary: #1a2620; /* Much darker green (almost black) */
-  --color-secondary: #4a5a4e; /* Deeper mid-tone */
-  --color-background: #ffffff; /* Pure white for max contrast */
-  --color-accent: #b8542d; /* Richer, deeper terracotta */
+  --color-primary: #0d1410; /* Near-black green */
+  --color-secondary: #5a6b5e; /* Muted forest green */
+  --color-background: #fdfcfa; /* Off-white (softer than pure white) */
+  --color-accent: #d95f2e; /* Vibrant burnt orange */
 }
 
 @layer base {
