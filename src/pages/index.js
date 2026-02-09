@@ -28,18 +28,18 @@ const fadeIn = {
   }),
 };
 
-const scaleIn = {
-  hidden: { opacity: 0, scale: 0.95 },
-  visible: (delay = 0) => ({
-    opacity: 1,
-    scale: 1,
-    transition: {
-      delay,
-      duration: 1.4,
-      ease: [0.25, 0.1, 0.25, 1],
-    },
-  }),
-};
+// const scaleIn = {
+//   hidden: { opacity: 0, scale: 0.95 },
+//   visible: (delay = 0) => ({
+//     opacity: 1,
+//     scale: 1,
+//     transition: {
+//       delay,
+//       duration: 1.4,
+//       ease: [0.25, 0.1, 0.25, 1],
+//     },
+//   }),
+// };
 
 const slideUp = {
   hidden: { opacity: 0, y: 60 },
@@ -124,7 +124,7 @@ export default function Home() {
       </motion.header>
 
       {/* Hero Section */}
-      <main className="px-[5%] min-h-[600px] md:min-h-[500px] lg:min-h-[calc(100vh-80px)] flex items-end pb-12 md:pb-16 lg:pb-20">
+      <main className="px-[5%] min-h-[600px] md:min-h-[500px] lg:min-h-[calc(100vh-80px)] flex items-end pt-2 pb-12 md:pb-16 lg:pb-20">
         <div className="mx-auto max-w-[1500px] grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 w-full">
           {/* Image Side */}
           <motion.div
@@ -243,7 +243,7 @@ export default function Home() {
             <h3 className="text-4xl sm:text-3xl md:text-4xl font-semibold text-primary mb-4">
               Our Office
             </h3>
-            <p className="text-base sm:text-lg text-secondary max-w-xl mx-auto">
+            <p className="text-base sm:text-lg text-black max-w-xl mx-auto">
               A calm, private space designed to feel grounding, comfortable, and
               welcoming.
             </p>
