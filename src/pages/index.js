@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 // Soft, elegant animation variants matching Lilac template
 const fadeUpSoft = {
@@ -59,6 +60,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-[#FEF8F2] overflow-hidden">
+      <SpeedInsights />
       {/* Header */}
       <motion.header
         initial={{ opacity: 0, y: -30 }}
