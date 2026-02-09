@@ -1,26 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ================================
+   THEME: Calm Earth Therapy
+   ================================ */
+@theme {
+  --color-primary: #2e3d32;
+  --color-secondary: #6f7f73;
+  --color-background: #f6f4ef;
+  --color-accent: #c47a5a;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-primary);
+    font-family:
+      "Montserrat",
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+
+  .btn-primary {
+    border: 1px solid var(--color-primary);
+    padding: 0.75rem 1.75rem;
+    font-size: 0.875rem;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+  }
 }
