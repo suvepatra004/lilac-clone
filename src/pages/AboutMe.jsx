@@ -42,7 +42,7 @@ const AboutMe = () => {
                         <div className="relative w-full max-w-md mx-auto lg:max-w-none aspect-3/4 overflow-hidden bg-[#4A7C7E]/10 flex items-center justify-center">
                             {!imageError ? (
                                 <Image
-                                    src="/"
+                                    src="/hero.png"
                                     fill
                                     sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
