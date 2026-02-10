@@ -84,7 +84,7 @@ const FAQs = () => {
                         <div className="relative w-full aspect-4/5 overflow-hidden bg-[#4A7C7E]/10 flex items-center justify-center top-8">
                             {!imageError ? (
                                 <Image
-                                    src="/faq-therapy-santa-monica.jpg"
+                                    src="/faq-therapy-santa-monica.png"
                                     fill
                                     sizes="(max-width: 1024px) 100vw, 40vw"
                                     className="object-cover"
