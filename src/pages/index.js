@@ -392,9 +392,9 @@ export default function Home() {
           <div className="mx-auto max-w-[1500px]">
             {/* Heading */}
             <div className="text-center mb-10 md:mb-14">
-              <h3 className="text-4xl sm:text-3xl md:text-4xl font-semibold text-primary mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-[#2D3436] mb-4">
                 Our Office
-              </h3>
+              </h2>
               <p className="text-base sm:text-lg text-black max-w-xl mx-auto">
                 A calm, private space designed to feel grounding, comfortable,
                 and welcoming.
