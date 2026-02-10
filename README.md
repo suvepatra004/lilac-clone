@@ -1,4 +1,4 @@
-# 🌸 Dr. Maya Reynolds - Clinical Psychology Practice
+# ⚕️ Dr. Maya Reynolds - Clinical Psychology Practice
 
 
   ![Next.js](https://img.shields.io/badge/Next.js-14.0-black?style=for-the-badge&logo=next.js)
@@ -46,7 +46,6 @@ This is a professional, SEO-optimized landing page built for **Dr. Maya Reynolds
 - **Accessibility**: WCAG compliant with semantic HTML and ARIA labels
 - **Performance**: Optimized for Core Web Vitals and fast page load times
 
----
 
 ## ✨ Features
 
