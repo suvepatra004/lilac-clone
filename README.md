@@ -9,9 +9,7 @@
   **A modern, responsive landing page for a licensed clinical psychologist specializing in anxiety, trauma, and burnout therapy.**
   
   [View Demo](http://lilac-clone-seven.vercel.app/) · [Report Bug](https://github.com/suvepatra004/lilac-clone/issues) · [Request Feature](https://github.com/suvepatra004/lilac-clone/issues)
-  
 
----
 
 ## 📋 Table of Contents
 
@@ -32,7 +30,6 @@
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
----
 
 ## 🎯 About The Project
 
@@ -179,7 +176,6 @@ lilac-clone/
 └── README.md                       # Project documentation
 ```
 
----
 
 ## 🔑 Key Sections
 
@@ -221,7 +217,6 @@ Features:
 - Success/error state handling
 - Privacy disclaimer
 
----
 
 ## 🔍 SEO Optimization
 
@@ -290,7 +285,6 @@ Target keywords naturally integrated:
 | Total Blocking Time | < 200ms | ✅ |
 | Cumulative Layout Shift | < 0.1 | ✅ |
 
----
 
 ## 🚢 Deployment
 
