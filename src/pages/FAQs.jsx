@@ -64,7 +64,7 @@ const FAQs = () => {
                     className="text-center mb-12 md:mb-16"
                 >
                     <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-[#2D3436] mb-4">
-                        Frequently Asked Questions
+                        FAQs
                     </h2>
                     <p className="text-base sm:text-lg text-[#2D3436]/80 max-w-2xl mx-auto">
                         Common questions about therapy services in Santa Monica, CA

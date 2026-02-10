@@ -1,15 +1,13 @@
 # ⚕️ Dr. Maya Reynolds - Clinical Psychology Practice
 
+![Next.js](https://img.shields.io/badge/Next.js-14.0-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-18.0-61DAFB?style=for-the-badge&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.0-FF0055?style=for-the-badge&logo=framer)
 
-  ![Next.js](https://img.shields.io/badge/Next.js-14.0-black?style=for-the-badge&logo=next.js)
-  ![React](https://img.shields.io/badge/React-18.0-61DAFB?style=for-the-badge&logo=react)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)
-  ![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.0-FF0055?style=for-the-badge&logo=framer)
-  
-  **A modern, responsive landing page for a licensed clinical psychologist specializing in anxiety, trauma, and burnout therapy.**
-  
-  [View Demo](http://lilac-clone-seven.vercel.app/) · [Report Bug](https://github.com/suvepatra004/lilac-clone/issues) · [Request Feature](https://github.com/suvepatra004/lilac-clone/issues)
+**A modern, responsive landing page for a licensed clinical psychologist specializing in anxiety, trauma, and burnout therapy.**
 
+[View Demo](http://lilac-clone-seven.vercel.app/) · [Report Bug](https://github.com/suvepatra004/lilac-clone/issues) · [Request Feature](https://github.com/suvepatra004/lilac-clone/issues)
 
 ## 📋 Table of Contents
 
@@ -30,7 +28,6 @@
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
-
 ## 🎯 About The Project
 
 This is a professional, SEO-optimized landing page built for **Dr. Maya Reynolds, PsyD**, a licensed clinical psychologist based in Santa Monica, California. The website serves as a digital presence for her therapy practice, specializing in evidence-based treatment for anxiety disorders, trauma/PTSD, professional burnout, and high-pressure stress management.
@@ -43,16 +40,17 @@ This is a professional, SEO-optimized landing page built for **Dr. Maya Reynolds
 - **Accessibility**: WCAG compliant with semantic HTML and ARIA labels
 - **Performance**: Optimized for Core Web Vitals and fast page load times
 
-
 ## ✨ Features
 
 ### 🎨 Design & UX
+
 - **Fully Responsive**: Seamless experience across desktop, tablet, and mobile devices
 - **Smooth Animations**: Framer Motion-powered animations with `whileInView` triggers
 - **Custom Color Palette**: Therapeutic color scheme with muted greens, burnt orange accents, and soft backgrounds
 - **Accessible Design**: Keyboard navigation, screen reader support, and semantic HTML
 
 ### 📄 Page Sections
+
 1. **Hero Section**: Eye-catching introduction with therapist photo and primary CTA
 2. **Office Gallery**: Visual showcase of the Santa Monica therapy office
 3. **My Specialties**: Four-card grid highlighting core therapeutic services
@@ -63,25 +61,24 @@ This is a professional, SEO-optimized landing page built for **Dr. Maya Reynolds
 8. **Footer**: Contact info, social links, and navigation
 
 ### 🔧 Technical Features
+
 - **SEO Optimized**: Meta tags, Open Graph, Twitter Cards, JSON-LD structured data
 - **Image Optimization**: Next.js Image component with lazy loading and fallbacks
 - **Form Validation**: Real-time client-side validation with error messaging
 - **Dynamic Components**: Code-splitting with Next.js `dynamic()` imports
 - **Analytics Ready**: Vercel Speed Insights integration
 
-
 ## 🛠 Tech Stack
 
-| Category | Technology |
-|----------|-----------|
-| **Framework** | [Next.js 14](https://nextjs.org/) (App Router - Pages Directory) |
-| **UI Library** | [React 18](https://react.dev/) |
-| **Styling** | [Tailwind CSS 3.4](https://tailwindcss.com/) |
-| **Animations** | [Framer Motion 11](https://www.framer.com/motion/) |
-| **Deployment** | [Vercel](https://vercel.com/) |
-| **Analytics** | [@vercel/speed-insights](https://vercel.com/docs/speed-insights) |
-| **Language** | JavaScript (ES6+) |
-
+| Category       | Technology                                                       |
+| -------------- | ---------------------------------------------------------------- |
+| **Framework**  | [Next.js 14](https://nextjs.org/) (App Router - Pages Directory) |
+| **UI Library** | [React 18](https://react.dev/)                                   |
+| **Styling**    | [Tailwind CSS 3.4](https://tailwindcss.com/)                     |
+| **Animations** | [Framer Motion 11](https://www.framer.com/motion/)               |
+| **Deployment** | [Vercel](https://vercel.com/)                                    |
+| **Analytics**  | [@vercel/speed-insights](https://vercel.com/docs/speed-insights) |
+| **Language**   | JavaScript (ES6+)                                                |
 
 ## 🚀 Getting Started
 
@@ -100,12 +97,14 @@ npm --version
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/suvepatra004/lilac-clone.git
    cd lilac-clone
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -117,6 +116,7 @@ npm --version
 ### Running Locally
 
 1. **Start the development server**
+
    ```bash
    npm run dev
    # or
@@ -126,11 +126,13 @@ npm --version
    ```
 
 2. **Open your browser**
+
    ```
    Navigate to http://localhost:3000
    ```
 
 3. **Build for production**
+
    ```bash
    npm run build
    npm run start
@@ -176,31 +178,38 @@ lilac-clone/
 └── README.md                       # Project documentation
 ```
 
-
 ## 🔑 Key Sections
 
 ### 1. **My Specialties**
+
 Four-card responsive grid showcasing:
+
 - Anxiety & Panic Disorders
 - Trauma & PTSD Treatment
 - Burnout & Professional Stress
 - Mindfulness & Somatic Therapy
 
 ### 2. **Client Testimonials**
+
 Three testimonial cards with:
+
 - Client photo (with fallback to initials)
 - Name and date
 - Short, impactful quotes
 
 ### 3. **About Me**
+
 Expandable bio section featuring:
+
 - Professional credentials
 - Therapeutic approach
 - Office location and availability
 - "Read More" toggle for full bio
 
 ### 4. **FAQs**
+
 Accordion-style answers to 7 key questions:
+
 - First session expectations
 - Telehealth availability
 - Session frequency
@@ -210,33 +219,38 @@ Accordion-style answers to 7 key questions:
 - Confidentiality
 
 ### 5. **Contact Form**
+
 Features:
+
 - Email validation
 - Custom inquiry type dropdown (FAQ-style)
 - Message textarea with character limit
 - Success/error state handling
 - Privacy disclaimer
 
-
 ## 🔍 SEO Optimization
 
 ### Implemented SEO Features
 
 ✅ **Meta Tags**
+
 - Title, description, keywords
 - Author and viewport settings
 - Canonical URL
 
 ✅ **Open Graph**
+
 - og:title, og:description, og:image
 - og:type (website)
 - og:locale
 
 ✅ **Twitter Cards**
+
 - twitter:card, twitter:title
 - twitter:description, twitter:image
 
 ✅ **JSON-LD Structured Data**
+
 - `@type: ProfessionalService`
 - Local business information
 - Service offerings
@@ -244,7 +258,9 @@ Features:
 - Geographic coordinates
 
 ✅ **Keyword Strategy**
+
 Target keywords naturally integrated:
+
 - "psychologist Santa Monica"
 - "anxiety therapy California"
 - "trauma therapist"
@@ -278,13 +294,12 @@ Target keywords naturally integrated:
 
 ### Performance Scores
 
-| Metric | Target | Status |
-|--------|--------|--------|
-| First Contentful Paint | < 1.8s | ✅ |
-| Largest Contentful Paint | < 2.5s | ✅ |
-| Total Blocking Time | < 200ms | ✅ |
-| Cumulative Layout Shift | < 0.1 | ✅ |
-
+| Metric                   | Target  | Status |
+| ------------------------ | ------- | ------ |
+| First Contentful Paint   | < 1.8s  | ✅     |
+| Largest Contentful Paint | < 2.5s  | ✅     |
+| Total Blocking Time      | < 200ms | ✅     |
+| Cumulative Layout Shift  | < 0.1   | ✅     |
 
 ## 🚢 Deployment
 
@@ -312,7 +327,6 @@ NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
 NEXT_PUBLIC_EMAILJS_USER_ID=your_user_id
 ```
 
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -339,22 +353,19 @@ Contributions are welcome! Please follow these steps:
 - Write meaningful commit messages
 - Add comments for complex logic
 
-
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` file for more information.
-
 
 ## 📬 Contact
 
 **Suvepatra Patra**
 
 - GitHub: [@suvepatra004](https://github.com/suvepatra004)
-- Email: your.email@example.com
+- Email: [your.email@example.com](mailto:your.email@example.com)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
 **Project Link**: [https://github.com/suvepatra004/lilac-clone](https://github.com/suvepatra004/lilac-clone)
-
 
 ## 🙏 Acknowledgments
 
@@ -365,6 +376,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 - [Lilac Template by Squarespace](https://lilac-template.squarespace.com/) (Inspiration)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
+---
 
 <div align="center">
   
