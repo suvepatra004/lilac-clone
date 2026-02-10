@@ -73,7 +73,6 @@ This is a professional, SEO-optimized landing page built for **Dr. Maya Reynolds
 - **Dynamic Components**: Code-splitting with Next.js `dynamic()` imports
 - **Analytics Ready**: Vercel Speed Insights integration
 
----
 
 ## 🛠 Tech Stack
 
@@ -87,7 +86,6 @@ This is a professional, SEO-optimized landing page built for **Dr. Maya Reynolds
 | **Analytics** | [@vercel/speed-insights](https://vercel.com/docs/speed-insights) |
 | **Language** | JavaScript (ES6+) |
 
----
 
 ## 🚀 Getting Started
 
@@ -321,7 +319,6 @@ NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
 NEXT_PUBLIC_EMAILJS_USER_ID=your_user_id
 ```
 
----
 
 ## 🤝 Contributing
 
@@ -349,13 +346,11 @@ Contributions are welcome! Please follow these steps:
 - Write meaningful commit messages
 - Add comments for complex logic
 
----
 
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` file for more information.
 
----
 
 ## 📬 Contact
 
@@ -367,7 +362,6 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 **Project Link**: [https://github.com/suvepatra004/lilac-clone](https://github.com/suvepatra004/lilac-clone)
 
----
 
 ## 🙏 Acknowledgments
 
@@ -378,7 +372,6 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 - [Lilac Template by Squarespace](https://lilac-template.squarespace.com/) (Inspiration)
 - [React Icons](https://react-icons.github.io/react-icons/)
 
----
 
 <div align="center">
   
