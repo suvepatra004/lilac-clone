@@ -10,7 +10,7 @@
   --color-secondary: #5a6b5e; /* Muted forest green */
   --color-background: #fdfcfa; /* Off-white (softer than pure white) */
   --color-accent: #d95f2e; /* Vibrant burnt orange */
-  --color-background: #f6f8f5; /* Soft sage-tinted off-white */
+  --color-background2: #f6f8f5; /* Soft sage-tinted off-white */
   --color-content: #2f3a34; /* Deep muted green-gray */
 }
 
@@ -24,6 +24,25 @@
       -apple-system,
       BlinkMacSystemFont,
       sans-serif;
+  }
+}
+
+/* Improve touch performance */
+* {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
